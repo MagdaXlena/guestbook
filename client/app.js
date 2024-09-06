@@ -9,8 +9,6 @@ async function getGuestbook() {
 
     data.forEach(function(guest){
     const guestbook = document.createElement("p");
-    guestbook.classList.add("yellow");
-    yellow.style.
     guestbook.textContent = `${guest.name} from ${guest.hometown}: "${guest.message}"`
     guestbookContainer.appendChild(guestbook);
 });
