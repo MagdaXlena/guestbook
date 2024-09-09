@@ -25,7 +25,7 @@ async function handlePostGuestMessage(event) {
     const formData = new FormData(form);
     const data = Object.fromEntries(formData);
    
-    await fetch("hhttps://guestbook-7nc2.onrender.com/guestbook", {
+    await fetch("https://guestbook-7nc2.onrender.com/guestbook", {
         method: "POST",
         headers: {
             "Content-type": "application/json",
