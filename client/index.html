@@ -10,12 +10,20 @@
 <body>
     <h1>Guestbook</h1>
     <h2>Thank You For Staying With Us!</h2>
-    <form id="guestbookForm">
-        <input name="name" placeholder="Name" />
-        <input name="hometown" placeholder="From" />
-        <input name="message" placeholder="Message" />
-        <button>Submit</button>
+    <form id="guestbookForm" class="guestbookForm">
+        <div>
+            <label for="fname">Name</label>
+            <input name="name" required/>
+            <label for="ffrom">From</label>
+            <input name="hometown" required />
+        </div>
+        <div>
+            <label for="fmessage">Message</label>
+            <input name="message" required />
+        </div>
+        <button class="button">Submit</button>
     </form>
-    <div id="guestbookContainer"></div>
+    <h2>Messages:</h2>
+    <div id="guestbookContainer" class="container"></div>
 </body>
 </html>

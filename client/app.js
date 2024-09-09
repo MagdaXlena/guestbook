@@ -37,4 +37,3 @@ async function handlePostGuestMessage(event) {
 }
 
 form.addEventListener("submit", handlePostGuestMessage);
-
